@@ -6,12 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./server.component.css']
 })
 export class ServerComponent implements OnInit {
-  name: string = "Darshan";
-
+  name: string;
   constructor() { }
-  onSubmit(eventData){
-    this.name = eventData.value;
-  }
+ 
   ngOnInit(): void {
   }
 
